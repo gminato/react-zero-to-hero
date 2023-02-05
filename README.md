@@ -9,7 +9,10 @@ Difference between a Library and Framework?
 
 What is CDN? Why do we use it?
     -CDN is a content delivery network which allows company to deliver content to enduser which is most closest to enduser thus provide increasing speed and better user experience
+<<<<<<< HEAD
 
+=======
+>>>>>>> dcd62ab (Removing unwanted text)
 Why is React known as React?
     -React library efficiently updates and renders components in response to changes in the state or data. The name reflects the library's ability to react to changes in a user interface in a fast and efficient manner.
 
@@ -26,5 +29,9 @@ What is difference between react.development.js and react.production.js files?
 
         --react.development.js is a build of the React library that is optimized for development. It includes additional checks and warnings to help catch common mistakes and make it easier to debug issues during development. This version of the library is larger in size and slower in performance than the production build.
 
+<<<<<<< HEAD
         --react.production.js is a build of the React library that is optimized for production. It has been minified and optimized for performance, and does not include the additional checks and warnings present in the development build. This version of the library is smaller in size and faster in performance than the development build, making it well-suited for use in a production environment.
 
+=======
+        --react.production.js is a build of the React library that is optimized for production. It has been minified and optimized for performance, and does not include the additional checks and warnings present in the development build. This version of the library is smaller in size and faster in performance than the development build, making it well-suited for use in a production environment.
+>>>>>>> dcd62ab (Removing unwanted text)
