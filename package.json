@@ -1,0 +1,26 @@
+{
+  "name": "react-zero-to-hero",
+  "version": "1.0.0",
+  "description": "learning react-zero-to-hero",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gminato/react-zero-to-hero.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gminato/react-zero-to-hero/issues"
+  },
+  "homepage": "https://github.com/gminato/react-zero-to-hero#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}

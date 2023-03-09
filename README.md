@@ -26,3 +26,7 @@ What is difference between react.development.js and react.production.js files?
         --react.development.js is a build of the React library that is optimized for development. It includes additional checks and warnings to help catch common mistakes and make it easier to debug issues during development. This version of the library is larger in size and slower in performance than the production build.
 
         --react.production.js is a build of the React library that is optimized for production. It has been minified and optimized for performance, and does not include the additional checks and warnings present in the development build. This version of the library is smaller in size and faster in performance than the development build, making it well-suited for use in a production environment.
+
+<--------------------------------------------------------------------------------->
+
+<--------------------------------------------------------------------------------->
