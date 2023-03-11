@@ -1,9 +1,22 @@
-import React from 'react';
-import ReactDOM from'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-let h1 = React.createElement('h1', { id: 'title',key:'k'} ,'Heading 1')
-let h2 = React.createElement('h2', {id:'title',key:'k2'} , 'Heading 2')
-const root = ReactDOM.createRoot(document.getElementById('root'));
-// element, props, children are argument of createElement 
-const heading = React.createElement('h1', { id: 'title' }, [h1,h2])
-root.render(heading)
+let h1 = (
+  <h1 id="title" key="h1" className="this-is-not-html">
+    Heading 1
+  </h1>
+);
+// react component
+//function component
+//classbased component
+
+const Header = () => {
+  //this is functional component it will react jsx or component ,can return react element also ie react.createElement(element)
+  return (
+    <h1>Namaster React component</h1>
+  )
+}
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(Header());
